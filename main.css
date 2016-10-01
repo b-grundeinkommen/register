@@ -1,0 +1,125 @@
+body {
+  color: #505050;
+  background-color: white;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	background-color: #CBCBCB;
+}
+
+a:link {
+  color: #FF8000;
+  font-style: normal;
+  text-decoration: none;
+}
+
+a:link:visited {
+  color: #FF8040;
+  font-style: normal;
+  text-decoration: none;
+}
+
+a:link:hover {
+  color: #FFFFFF;
+  background-color: #FF8000;
+  font-style: normal;
+  text-decoration: none;
+}
+
+a:link:active,{
+  color: #FF8040;
+  font-style: normal;
+  text-decoration: none;
+}
+
+a:link:hover img {
+  color: #000000;
+  background-color: white;
+  text-decoration: none;
+}
+
+b {
+  color: black;
+}
+
+#error {
+	color: red;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#small {
+	color: black;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#standard {
+	color: black;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#panel-common {
+	color: black;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	vertical-align: middle;
+}
+#box-common {
+	color: black;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	vertical-align: middle;
+}
+#box-error {
+	color: red;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+#box-warning {
+	color: blue;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+input {
+	color: black;
+	font-family: arial, verdana, ms sans serif;
+	font-size: 10pt
+}
+select {
+	background-color: #ddd;
+	color: black;
+	font-family: arial, verdana, ms sans serif;
+	font-size: 10pt
+}
+.grid {
+	font-family: arial, verdana, ms sans serif;
+	font-size: 8pt; /* the images are 16px too */
+	background-color: white;
+}
+table.grid {
+	width: 100%;
+	margin-bottom: 10px;
+	background-color: #f0f0f0;
+}
+td.grid {
+	border: solid gray 1px;
+	padding: 3px;
+}
+td.grid.even {
+	background-color: #c6c3c6;
+	vertical-align: top;
+}
+td.grid.odd {
+	background-color: #f7efef;
+	vertical-align: top;
+}
+
+th.grid {
+	border-top: solid gray 1px;
+	border-left: solid gray 1px;
+	padding: 3px;
+	font-weight: bold;
+	background-color: #f7efef;
+}
+
+#content {
+	font-size: 13px;
+}

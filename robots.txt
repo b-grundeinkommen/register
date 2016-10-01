@@ -1,0 +1,623 @@
+# BotDoku: de.wetena.com/bot
+# Doku:    www.robotstxt.org
+ 
+# erlaubte robots
+# google.com Googlebot
+# bing.com bingbot
+# msn.com
+# MSIE
+# info@netcraft.com
+
+# Hier ein Liste der unerwuenschten robots
+# Yandex
+# www.infohelfer.de
+# warebay.com
+# thunderstone.com
+# pixray.com
+# aihit.com
+# ips-agent
+# MALC
+
+# Liste Download Einschraenkungen
+User-agent: Slurp
+Disallow: /media/files/karten/
+Disallow: /media/files/ortsdaten/
+Disallow: /media/files/wandertracks/
+Disallow: /media/files/gc2apemap/
+Disallow: /media/files/tools/
+
+# metadatalabs.com
+User-agent: MLBot
+Disallow: /
+
+#  Ahrefs.com (http://ahrefs.com/robot/)
+#  IP 5.10.83.36
+#  "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+user-agent: AhrefsBot
+disallow: /
+
+# ezooms.bot
+User-agent: Ezooms
+Disallow: /
+
+# Pagespped Crawler
+User-agent: pagespeedbot
+Disallow: /
+
+# www.infohelfer.de
+User-agent: Infohelfer
+Disallow: /
+
+# www.pixray.com
+User-agent: Pixray*
+Disallow: /
+
+# warebay.com
+User-agent: WBSearchBot
+Disallow: /
+
+# aihit.com
+User-agent: aiHitBot
+Disallow: /
+
+# yandex.com  YandexBot YandexImages
+# IP 141.8.147.17
+# "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+User-agent: YandexBot
+Disallow: /
+User-agent: YandexImages
+Disallow: /
+
+# U 
+User-agent: U
+Disallow: /
+
+# unister.de
+User-agent: UnisterBot
+Disallow: /
+
+# www.Nutch.de
+# IP 62.146.2.234, 117.78.13.18, 117.78.13.29
+# "Domnutch-Bot/Nutch-1.0 (Domnutch; http://www.Nutch.de/)"
+# "nutch-1.4/Nutch-1.4"
+User-agent: nutch-1.4
+Disallow: /
+User-agent: Domnutch
+Disallow: /
+User-agent: nutch
+Disallow: /
+
+
+User-agent: discobot
+Disallow: /
+
+# SEO Spider  spider@spiderlytics.com 
+# IP 5.199.136.130
+# "Mozilla/5.0 (compatible; Spiderlytics/1.0; +spider@spiderlytics.com)"
+User-agent: Spiderlytics
+Disallow: /
+
+# IP 5.9.6.51
+# "Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +http://megaindex.com/crawler)" 
+User-agent: MegaIndex
+Disallow: /
+
+ # Unknown
+# IP 207.241.226.239
+# "ia_archiver(OS-Wayback)"
+User-agent: ia_archiver
+Disallow: /
+
+# crawler@alexa.com
+# IP 204.236.235.245
+# "ia_archiver (+http://www.alexa.com/site/help/webmasters; crawler@alexa.com)"
+User-agent: alexa
+Disallow: /
+
+
+# Unknown
+# IP 108.59.8.70
+# "Mozilla/5.0 (compatible; MJ12bot/v1.4.5; http://www.majestic12.co.uk/bot.php?+)"
+User-agent: MJ12bot
+Disallow: /
+
+# http://go.mail.ru/help/robots
+# IP 217.69.133.253, 217.69.143.62
+# "Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)"
+User-agent: Mail.RU_Bot
+Disallow: /
+
+# macinroy.com
+# IP 85.25.137.24
+# "MacInroy Privacy Auditors. See jarnold.org's privacy violation report: http://jarnold.org.macinroy.com/jarnold.org"
+User-agent: MacInroy
+Disallow: /
+
+# www.semrush.com/bot.html
+# IP 46.229.164.102, 46.229.164.112
+# "Mozilla/5.0 (compatible; SemrushBot/1~bl; +http://www.semrush.com/bot.html)"
+User-agent: SemrushBot
+Disallow: /
+
+# http://www.icjobs.de
+# IP 85.25.71.40
+# "Mozilla/5.0 (X11; U; Linux i686; de; rv:1.9.0.1; compatible; iCjobs Stellenangebote Jobs; http://www.icjobs.de) Gecko/20100401 iCjobs/3.2.3"
+User-agent: iCjobs
+Disallow: /
+
+# http://fulltext.sblog.cz
+# IP 77.75.77.32, 77.75.73.17
+# "Mozilla/5.0 (compatible; SeznamBot/3.2; +http://fulltext.sblog.cz/)"
+User-agent: SeznamBot
+Disallow: /
+
+# http://webmeup-crawler.com
+# IP 108.178.53.146
+# "Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)"
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: seoscanners.net
+Disallow: /
+
+User-agent: MXT
+Disallow: /
+
+# http://siteexplorer.info
+# IP 208.43.225.84
+# "Mozilla/5.0 (compatible; SiteExplorer/1.0b; +http://siteexplorer.info/)"
+User-agent: SiteExplorer
+Disallow: /
+
+# www.linkdex.com/about/bots
+# IP 54.242.123.170, 23.22.229.75, 54.225.52.217 23.20.126.233
+# "Mozilla/5.0 (compatible; linkdexbot/2.0; +http://www.linkdex.com/about/bots/)"
+User-agent: linkdexbot
+Disallow: /
+
+
+# www.wotbox.com/bot
+# IP 81.144.138.34
+# "Wotbox/2.01 (+http://www.wotbox.com/bot/)"
+User-agent: Wotbox
+Disallow: /
+
+
+# http://www.domaintuno.com
+# IP 192.96.204.42
+# "http://www.domaintuno.com/whois/jarnold.org" "Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)"
+User-agent: domaintuno
+Disallow: /
+
+
+# unknown addressendeutschland.de
+# IP 86.109.249.174
+# "http://arnold-soft.de/" "dubaiindex (addressendeutschland.de)"
+User-agent: dubaiindex
+Disallow: /
+
+# www.abonti.com
+# IP 77.233.225.115
+# "Mozilla/5.0 (compatible; Abonti/0.91 - http://www.abonti.com)"
+User-agent: Abonti
+Disallow: /
+
+
+# www.backlinktest.com/crawler.html
+# IP 46.4.100.231
+# "BacklinkCrawler (http://www.backlinktest.com/crawler.html)"
+User-agent: BacklinkCrawler
+Disallow: /
+
+# http://netcomber.com
+# IP 54.227.175.17
+# "NCBot http://netcomber.com?st=ba2Tool for finding all their domain names."
+User-agent: NCBot
+Disallow: /
+
+# www.grapeshot.co.uk/crawler.php
+# IP 89.145.95.2
+# "Mozilla/5.0 (compatible; GrapeshotCrawler/2.0; +http://www.grapeshot.co.uk/crawler.php)"
+User-agent: GrapeshotCrawler
+Disallow: /
+
+# http://overx50.com
+# IP 188.40.249.87
+# "Mozilla/5.0 (compatible; DownloadBot/2.0; +http://overx50.com/)"
+User-agent: DownloadBot
+Disallow: /
+
+# ignoriert robots.txt
+# publiclibraryarchive.org
+# IP 81.30.151.220, 85.114.139.54
+# "Mozilla/5.0 (compatible; publiclibraryarchive.org/1.0; +crawl@publiclibraryarchive.org)"
+User-agent: publiclibraryarchive
+Disallow: /
+User-agent: publiclibraryarchive.org
+Disallow: /
+
+
+
+# http://go.mail.ru/help/robots
+# IP 217.69.143.66
+# "Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Robots/2.0; +http://go.mail.ru/help/robots)"
+User-agent: Mail.RU_Bot
+Disallow: /
+
+# www.80legs.com/webcrawler.html
+# IP 64.125.222.16
+# "Mozilla/5.0 (compatible; 008/0.83; http://www.80legs.com/webcrawler.html;) Gecko/2008032620"
+User-agent: 008/0.83
+Disallow: /
+User-agent: 008/0.85
+Disallow: /
+
+
+# it2media.de
+# IP 86.109.249.169
+# "it2media-domain-crawler/1.0 on crawler-prod.it2media.de"
+User-agent: it2media-domain-crawler
+Disallow: /
+
+# http://crawler.sistrix.net
+# IP 176.9.148.197, IP 176.9.155.226, 5.9.112.66
+# "Mozilla/5.0 (compatible; SISTRIX Crawler; http://crawler.sistrix.net/)"
+User-agent: SISTRIX
+Disallow: /
+
+
+# www.picsearch.com/bot.html
+# IP 217.212.224.183
+# "psbot/0.1 (+http://www.picsearch.com/bot.html)"
+User-agent: psbot
+Disallow: /
+
+# worio.com
+# IP 107.22.250.59
+# "Mozilla/5.0 (compatible; woriobot +http://worio.com)"
+User-agent: woriobot
+Disallow: /
+
+# semantissimo.de
+# IP 88.198.24.173
+# "ssearch_bot (sSearch Crawler; http://www.semantissimo.de)"
+User-agent: sSearch
+Disallow: /
+
+# +spider@waybackarchive.org
+# IP 5.199.136.130
+# "Mozilla/5.0 (compatible; waybackarchive.org/1.0; +spider@waybackarchive.org)"
+User-agent: waybackarchive.org
+Disallow: /
+
+
+# www.website-datenbank.de
+# IP 81.209.177.145
+# "netEstate NE Crawler (+http://www.website-datenbank.de/)"
+User-agent: netEstate
+Disallow: /
+
+# www.compspy.com/spider.html
+# IP 68.47.129.55
+# "Mozilla/5.0 (compatible; CompSpyBot/1.0; +http://www.compspy.com/spider.html)"
+User-agent: CompSpyBot
+Disallow: /
+
+# www.seoprofiler.com/bot
+# IP 198.199.89.149, 162.243.203.202, 104.131.217.194, 107.170.40.178
+# "Mozilla/5.0 (compatible; spbot/4.4.2; +http://OpenLinkProfiler.org/bot )"
+User-agent: spbot
+Disallow: /
+
+# http://filterdb.iss.net/crawler/
+# IP 206.253.226.18
+# "Mozilla/5.0 (compatible; oBot/2.3.1; http://filterdb.iss.net/crawler/)"
+User-agent: oBot
+Disallow: /
+
+
+# http://www.baidu.com
+# 183.60.243.187
+# "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0"
+User-agent: baidu
+Disallow: /
+# "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
+User-agent: Baiduspider
+Disallow: /
+
+# http://www.exabot.com/go/robot
+# IP 178.255.215.69
+# "Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot)"
+User-agent: Exabot
+Disallow: /
+
+# www.tiscali.it
+# IP 217.73.208.103
+# "Mozilla/5.0 (compatible; IstellaBot/1.18.81 +http://www.tiscali.it/)"
+User-agent: IstellaBot
+Disallow: /
+User-agent: istellabot
+Disallow: /
+
+# www.netseer.com/crawler.html
+# IP 75.98.9.250
+# "Mozilla/5.0 (compatible; NetSeer crawler/2.0; +http://www.netseer.com/crawler.html; crawler@netseer.com)"
+User-agent: NetSeer
+Disallow: /
+
+# IP 91.250.15.69
+# "Mozilla/5.1 (compatible; MediaBot/1.1.6; +http://mercedes-w123.net)"
+User-agent: MediaBot
+Disallow: /
+ 
+# http://www.opensiteexplorer.org/dotbot, help@moz.com
+# IP 208.115.113.92
+# "Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)"
+User-agent: DotBot
+Disallow: /
+
+# http://www.proximic.com/info/spider.php
+# IP 54.211.1.18
+# "Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)"
+User-agent: proximic
+Disallow: /
+
+# http://commoncrawl.org/faq/
+# IP 54.227.12.4
+# "CCBot/2.0 (http://commoncrawl.org/faq/)"
+User-agent: CCBot
+Disallow: /
+
+#
+# IP 148.251.234.39
+# "Seobility (SEO-Check; http://bit.ly/1dJuuzs)"
+User-agent: Seobility
+Disallow: /
+
+
+# 
+# IP 130.211.186.147, 146.148.35.52, 107.178.216.118
+# "GET / HTTP/1.0" 200 10064 "-" "NerdyBot"
+User-agent: NerdyBot
+Disallow: /
+
+
+# http://mono.name
+# IP 91.250.15.69
+# "Mozilla/5.1 (compatible; MonoBot/1.0; +http://mono.name)"
+User-agent: MonoBot
+Disallow: /
+
+User-agent: vebidoobot
+Disallow: /
+
+#
+# IP 37.59.55.128
+# "Mozilla/5.0 (compatible; fr-crawler/1.1)"
+User-agent: fr-crawler
+Disallow: /
+
+#
+# IP 192.95.29.116
+# "Mozilla/5.0 (compatible; ca-crawler/1.0)"
+User-agent: ca-crawler
+Disallow: /
+
+#
+# IP 91.242.162.100
+# "Mozilla/5.0 (compatible; memoryBot/1.20.199 +http://internetmemory.org/en/)"
+User-agent: memoryBot
+Disallow: /
+
+#
+# IP 85.10.246.243
+# "Mozilla/5.0 (compatible; SearchmetricsBot; http://www.searchmetrics.com/en/searchmetrics-bot/)" 
+User-agent: SearchmetricsBot
+Disallow: /
+
+#
+# IP 86.109.249.169
+# "it2media-domain-crawler/2.0"
+User-agent: it2media-domain-crawler
+Disallow: /
+ 
+  
+# http://semalt.semalt.com/crawler.php
+# IP 187.79.214.121, 177.182.110.46, 180.87.245.236, 203.106.154.207, 186.226.182.72, 91.250.157.238, 190.213.84.119, 109.31.192.115 
+# "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36"
+#User-agent: xxx
+#Disallow: /
+
+# xovibot.net/
+# IP 212.224.119.179, 176.9.40.107
+# "Mozilla/5.0 (compatible; XoviBot/2.0; +http://www.xovibot.net/)"
+#User-agent: XoviBot
+#Disallow: /
+
+# IP 46.4.68.142
+# "Mozilla/5.0 (compatible; SEOkicks-Robot; +http://www.seokicks.de/robot.html)"
+#User-agent: SEOkicks-Robot
+#Disallow: /
+
+# IP 38.111.147.84
+# "TurnitinBot/3.0 (http://www.turnitin.com/robot/crawlerinfo.html)"
+#User-agent: TurnitinBot
+#Disallow: /
+
+#
+# IP 69.84.207.246
+# "LSSRocketCrawler/1.0 LightspeedSystems"
+User-agent: LSSRocketCrawler
+Disallow: /
+
+# IP 88.198.1.77
+# "Sitedomain-Bot(Sitedomain-Bot 1.0, http://www.sitedomain.de/sitedomain-bot/)"
+User-agent: Sitedomain-Bot
+Disallow: /
+
+# IP 82.208.160.181
+# "wonderbot/JS 1.0"
+User-agent: wonderbot
+Disallow: /
+ 
+User-agent: Mediapartners-Google*
+Disallow: /
+
+#ohne robots.txt
+# 50.17.21.141, 81.169.245.220
+# "Cliqzbot/0.1 (+http://cliqz.com/company/cliqzbot)"
+User-agent: Cliqzbot
+Disallow: /
+
+#ohne robots.txt
+# linkpad.ru
+# IP 85.17.73.171, 5.79.68.56
+# "Mozilla/5.0 (compatible; LinkpadBot/1.07; +http://www.linkpad.ru)"
+#User-agent: LinkpadBot
+#Disallow: /
+
+#ignoriert robots.txt!!!
+# IP 192.99.39.68, 192.99.107.208
+# "Mozilla/5.0 (compatible; meanpathbot/1.0; +http://www.meanpath.com/meanpathbot.html)"
+#User-agent: meanpathbot
+#Disallow: /
+
+#ignoriert robots.txt!!!
+# "Mozilla/5.0 (compatible; 200PleaseBot/1.0; +http://www.200please.com/bot)"
+#User-agent: 200PleaseBot
+#Disallow: /
+
+#ignoriert robots.txt!!!
+# IP 192.99.40.137
+# "Mozilla/5.0 (compatible; DomainTunoCrawler/0.1; +http://www.domaintuno.com/robot)"
+#User-agent: DomainTunoCrawler
+#Disallow: /
+
+
+# IP 69.58.178.58, 69.58.178.57
+# "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:14.0; ips-agent) Gecko/20100101 Firefox/14.0.1"
+User-agent: ips-agent
+Disallow: /
+
+#ignoriert robots.txt!!!
+# IP 207.241.237. 102,103,105,229 (abwechselnd!) + 207.241.226.234
+# "Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)"
+User-agent: archive.org_bot
+Disallow: /
+
+#ignoriert robots.txt!!!
+# IP 130.185.109.243, 130.185.104.89
+# "PagesInventory (robot http://www.pagesinvenotry.com)"
+User-agent: PagesInventory
+Disallow: /
+
+
+#ignoriert robots.txt = 403 blacklist
+# 64.246.165.160, 64.246.187.42 
+# "Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (DomainTools)"
+User-agent: SurveyBot
+Disallow: /
+
+
+#ignoriert robots.txt = 403 blacklist
+# 65.208.151.112 - 65.208.151.119
+# 63.110.148.104 - 120
+# 63.110.158.48 - 63.110.158.55
+# 65.200.47.0 - 65.200.47.7
+# 65.208.189.24 - 65.208.189.31
+# 65.208.185.96 - 65.208.185.103
+# 65.211.195.16 - 65.211.195.23 
+# "GET / HTTP/1.1" 200 4755 "-" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)"
+# Kintiskton LLC 
+
+### unerwuenscht ohne robot.txt =>  Abfrage "GET / HTTP/1.0" ###
+# a14download.com
+# IP 188.40.249.87
+# "http://a14download.com" "Mozilla/5.1 (compatible; DBot/7.5.6; +http://a14download.com)"
+#User-agent: DBot
+#Disallow: /
+
+### unerwuenscht ohne robot.txt =>  Abfrage "GET / HTTP/1.0" ### => 403 blacklist
+# IP 144.76.178.226
+# "http://medialine-it.com" "Mozilla/5.1 (compatible; MediaLBot/1.1.5; +http://medialine-it.com)"
+#User-agent: MediaLBot
+#Disallow: /
+
+ - - [07/Jan/2015:07:41:24 +0100] "GET / HTTP/1.0" 200 12117 
+
+# IP 5.101.100.60,
+# "Mozilla/5.0 (compatible; 200PleaseBot/1.0; +http://www.200please.com/bot)"
+#User-agent: 200PleaseBot
+#Disallow: /
+ 
+# getdownload.ws
+# IP 91.250.15.69
+# "http://u8files.asia" "Mozilla/5.1 (compatible; DBot/7.0; +http://getdownload.ws)"
+#User-agent: DBot
+#Disallow: /
+
+# getdownload.ws
+# IP 91.250.15.69
+# "http://u8files.asia" "Mozilla/5.1 (compatible; DBot/7.0; +http://getdownload.ws)"
+#User-agent: DBot
+#Disallow: /
+
+# dl2engine.net
+# IP 91.250.15.69
+# "http://dl2engine.net" "Mozilla/5.1 (compatible; DL2Bot/1.0; +http://dl2engine.net)"
+#User-agent: DL2Bot
+#Disallow: /
+
+# unerwuenscht ohne robot.txt + igonriert robot = 403 blacklist
+# lipperhey.com
+# IP 82.192.74.245, 82.192.70.50
+# "Mozilla/5.0 (compatible; Lipperhey SEO Service; http://www.lipperhey.com/)"
+#User-agent: Lipperhey
+#Disallow: /
+
+#ignoriert robots.txt!!!
+# IP 104.131.211.106
+# "Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)"
+User-agent: NetcraftSurveyAgent
+Disallow: /
+
+
+
+
+# 220.181.108.172 - - [07/Aug/2014:23:36:32 +0200] "GET /media/images/Geocaching2013_P50_64col.png HTTP/1.1" 200 34296 "-" "Baiduspider-image+(+http://www.baidu.com/search/spider.htm)\\nReferer: http://image.baidu.com/i?ct=503316480&z=0&tn=baiduimagedetail"
+
+# 86.109.249.169 - - [27/Oct/2013:06:58:41 +0100] "GET /robots.txt HTTP/1.1" 200 6844 "-" "www.adressendeutschland.de"
+
+#101.226.169.229 - - [24/Nov/2013:13:59:20 +0100] "GET /robots.txt HTTP/1.1" 200 7513 "http://www.arnold-soft.de/robots.txt" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; MDDR; .NET4.0C; .NET4.0E; .NET CLR 1.1.4322; Tablet PC 2.0); 360Spider"
+
+# 5.9.142.210 - - [08/Aug/2013:01:38:03 +0200] "GET /robots.txt HTTP/1.1" 200 1457 "-" 
+# "Mozilla/5.0+(compatible;+CukBot;+Not+a+spammer;+++http://www.companiesintheuk.co.uk/bot.html)"
+
+# 78.46.154.40 - - [11/Aug/2013:19:01:00 +0200] "GET /robots.txt HTTP/1.1" 200 1457 "-" "ExB Language Crawler 2.1.5 (+http://www.exb.de/crawler)"
+
+# 139.18.2.209 - - [02/Jul/2013:20:18:00 +0200] "GET /robots.txt HTTP/1.1" 200 1457 "-" "findlinks/2.6 (+http://wortschatz.uni-leipzig.de/findlinks/)"
+
+
+# standard Einstellungen
+User-agent: *
+Disallow: /atd/
+Disallow: /backup/
+Disallow: /files/
+Disallow: /log/
+Disallow: /phptmp/
+Disallow: /restore/
+Disallow: /html/_media/
+Disallow: /html/media/images/
+Disallow: /html/media/Scripting/
+Disallow: /html/cgi-bin/
+Disallow: /html/mediawiki/
+
+
+# Allow: /html/
+# Allow: /html/media/files/
+
+# TODO
+# Angabe der Sitemap ist Agent-unabhaengig
+# Sitemap: http://www.domain.de/sitemap_softwarevz.xml.gz
+
+
